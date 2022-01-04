@@ -1,0 +1,208 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(247, 241, 241);
+}
+#header-img {
+  width: 30vw;
+  height: 50px;
+}
+#header {
+  background-color: rgb(243, 241, 241);
+  z-index: 1;
+  position: sticky;
+  top: 0%;
+  height: 50px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  margin-top: 3%;
+}
+.textafternav {
+  text-align: center;
+}
+.textafternav > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.textafternav > input {
+  width: 20vw;
+  margin-top: 2%;
+}
+.textafternav > button {
+  margin-top: 2%;
+  width: 10vw;
+  font-weight: bold;
+}
+.one,
+.two,
+.three {
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionone {
+  margin-top: 15%;
+}
+i {
+  width: 120px;
+  color: darkorange;
+}
+.one h1,
+.two h1,
+.three h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+iframe {
+  margin: 5%;
+  width: 50vw;
+  height: 350px;
+}
+.sectiontwo {
+  display: flex;
+}
+.sectiontwo div {
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 2%;
+  width: 100%;
+  height: auto;
+}
+.sectiontwo > div:nth-child(2) {
+  margin: 0 2%;
+}
+#howitworks {
+  text-align: center;
+}
+.sectiontwo div h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: rgb(199, 196, 196);
+  padding: 7%;
+  color: black;
+}
+footer {
+  margin-top: 4%;
+  background-color: grey;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1%;
+}
+.btnfooter {
+  display: flex;
+  justify-content: end;
+}
+footer > div:nth-child(2) {
+  display: flex;
+  justify-content: end;
+}
+footer > div:nth-child(1) > button {
+  border: unset;
+  margin: 4px;
+  background-color: transparent;
+}
+footer > div:nth-child(2) > p {
+  color: rgb(199, 196, 196);
+}
+@media only screen and (max-width: 600px) {
+  #header-img {
+    width: 50vw;
+    height: 50px;
+  }
+  #header {
+    background-color: rgb(243, 241, 241);
+    position: relative;
+    height: auto;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .links {
+    display: flex;
+    margin: 1vw;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.644);
+  }
+  .links > a {
+    color: white;
+    opacity: 0.8;
+  }
+  .textafternav > h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .textafternav > input {
+    width: 50vw;
+    margin-top: 2%;
+  }
+  .textafternav > button {
+    margin-top: 2%;
+    width: 30vw;
+    font-weight: bold;
+  }
+  .one,
+  .two,
+  .three {
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  iframe {
+    margin: 5%;
+    width: 80vw;
+    height: 350px;
+  }
+  .sectiontwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sectiontwo div {
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 2%;
+    width: auto;
+    height: auto;
+  }
+  .sectiontwo > div:nth-child(2) {
+    margin: 2% 0%;
+  }
+  .sectiontwo div h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: rgb(199, 196, 196);
+    padding: 7%;
+    color: black;
+  }
+}
